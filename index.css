@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: black;
+    background-image: linear-gradient(120deg, #00ff66, #cc00ff);
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+.container {
+    background-color: #ecf0f3;
+    box-shadow: 6px 6px 13px rgb(47, 47, 47), 6px 6px 13px rgba(0, 0, 0, .16);
+    border-radius: 30px;
+    text-align: end;
+    padding: 10px 15px;
+}
+
+h1 {
+    margin: 0 10px 0 0;
+    font-size: 28.5px;
+    background: -webkit-linear-gradient(120deg, #00FF66, #CC00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input.input-text {
+    font-size: 23px;
+    margin: 10px 10px 10px 0;
+    height:  60px;
+    width: 262px;
+    border-radius: 32px;
+    text-align: end;
+    border:  none;
+    box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgb(0, 0, 0, .16);
+    padding: 0 20px;
+    color:rgb(26, 25, 25);
+    overflow: hidden;
+}
+
+input.input-text:focus {
+    outline: none;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius:  50%;
+    margin: 10px;
+    font-size: 23px;
+    background-color: #ecf0f3;
+    border:  none;
+    box-shadow: 6px 6px 13px #e0e0e0, 6px 6px 13px rgb(0, 0, 0, .16);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.equal {
+    width: 142px;
+    border-radius: 42px;
+}
+
+button:active {
+    box-shadow: inset 6px 6px 13px #e0e0e0, inset 6px 6px 13px rgba(0, 0, 0, .16);
+}
